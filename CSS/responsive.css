@@ -1,0 +1,186 @@
+/* ===========================================================================================
+                                          Bootstrap Media Queries
+=========================================================================================== */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* OK */
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*   OK */
+
+    #footer-menu {
+        float: left !important;
+    }
+
+    #service-heading {
+        margin-left: 40px !important;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #home-heading {
+        padding-top: 30px !important;
+    }
+
+    #home-heading h2 {
+        font-size: 45px !important;
+    }
+
+    #service-heading {
+        margin-left: 60px !important;
+    }
+
+    #right-contact-us {
+
+        margin-top: 30px !important;
+    }
+
+    .flex-div {
+        padding-top: 10px !important;
+    }
+
+
+    #footer-menu {
+        float: left !important;
+    }
+
+    .navbar-brand {
+        padding-left: 50px !important;
+    }
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 480px) and (max-width: 767px) {
+
+    .navbar-brand {
+        padding-left: 40px !important;
+    }
+
+    #home-heading {
+        padding-top: 30px !important;
+    }
+
+    #home-heading h2 {
+        font-size: 45px !important;
+    }
+
+    #home-heading p {
+        font-size: 30px !important;
+    }
+
+    #wwd-text {
+        font-size: 75px !important;
+    }
+
+    #service-heading {
+        margin-left: 100px !important;
+        text-align: center !important;
+    }
+
+    #service-heading h2 {
+        font-size: 40px !important;
+    }
+
+    #service-heading p {
+        font-size: 20px !important;
+        padding: 0ps 30px !important;
+        font-weight: 700;
+    }
+
+    #service-heading a {
+        margin-top: 40px !important;
+    }
+
+    #portfolio-p {
+        font-size: 20px !important;
+    }
+
+    #right-contact-us {
+
+        margin-top: 30px !important;
+    }
+
+    .flex-div {
+        padding-top: 10px !important;
+    }
+
+
+    #footer-menu {
+        float: left !important;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+
+    .navbar-brand {
+        padding-left: 0px !important;
+    }
+
+    #home-heading {
+        padding-top: 0px !important;
+    }
+
+    #home-heading h2 {
+        font-size: 25px !important;
+        padding-top: 30px !important;
+    }
+
+    #home-heading p {
+        font-size: 20px !important;
+    }
+
+    #wwd-text {
+        font-size: 45px !important;
+    }
+
+    #service-heading {
+        margin-left: 50px !important;
+        text-align: center !important;
+    }
+
+    #service-heading h2 {
+        font-size: 40px !important;
+    }
+
+    #service-heading p {
+        font-size: 20px !important;
+        padding: 30px 0px !important;
+        font-weight: 700;
+    }
+
+    #service-heading a {
+        margin-top: 40px !important;
+        margin-left: 0px !important;
+    }
+
+    #portfolio-p {
+        font-size: 18px !important;
+    }
+    #portfolio-h2{
+        font-size: 40px !important;
+    }
+    #right-contact-us {
+
+        margin-top: 30px !important;
+    }
+
+    .flex-div {
+        padding-top: 10px !important;
+    }
+
+
+    #footer-menu {
+        float: left !important;
+    }
+
+}

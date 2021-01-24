@@ -1,0 +1,410 @@
+/* General CSS*/
+
+html,
+body {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+}
+
+.container-1{
+    width: 100%;
+    height: 100%;
+}
+
+/* ===========================================================================================
+                                        Animation
+=========================================================================================== */
+
+/* ===========================================================================================
+                                            Home
+=========================================================================================== */
+
+#home {
+    height: 100%;
+}
+
+#home-cover {
+    background-image: url(../IMG/BG-Image.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#home-heading h2 {
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin: 0px 0px 20px 0px;
+}
+
+#home-heading p {
+    font-size: 33px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+
+#home-btn a {
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+}
+
+
+/* ===========================================================================================
+                                            Navbar
+=========================================================================================== */
+.navbar-brand {
+    padding-left: 120px;
+}
+.navbar-nav a {
+    color: white;
+    margin-left: 30px;
+}
+.navbar-collapse{
+    margin-right: 120px;
+}
+.navbar-nav a:hover {
+    color: red;
+}
+.navbar-toggler i{
+    color: white;
+    border: white;
+}
+
+/* ===========================================================================================
+                                            What We Do
+=========================================================================================== */
+
+#WWD {
+    margin: 40px 0px;
+}
+
+#wwd-text {
+    font-size: 93.592px;
+    color: rgb(225, 225, 225);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+#f1 {
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-align: justify;
+}
+
+#p1 {
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    text-align: left;
+    text-align: justify;
+}
+
+
+/* ===========================================================================================
+                                            Service
+=========================================================================================== */
+
+#service {
+    background: url(../IMG/service-1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#service-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#service-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#service h2 {
+    font-size: 50px;
+    color: rgb(80, 51, 146);
+    line-height: 1.5;
+}
+
+#service p {
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+
+#service-heading {
+    width: 50%;
+    text-align: left;
+    padding: 292px 0px;
+}
+
+#service a {
+    border-radius: 0px;
+    background-color: #503392;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(243, 242, 242);
+    padding: 10px;
+}
+
+
+/* ===========================================================================================
+                                            Portfolio
+=========================================================================================== */
+
+#portfolio {
+    margin: 60px 0px;
+}
+
+#portfolio-h2 {
+    font-size: 50px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.6;
+    text-align: center;
+}
+
+#portfolio-p {
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 1.333;
+    text-align: center;
+}
+
+.btn-group {
+    margin: 20px 0px;
+}
+
+
+/* Carousel */
+
+.row.no-gutters [class*=col-] {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    transition: transform 0.5s;
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.5);
+}
+
+
+/* ===========================================================================================
+                                            Stats
+=========================================================================================== */
+
+#stats-cover {
+    background-image: url(../IMG/Stats-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.stats-item {
+    padding: 80px 0;
+}
+
+.stats-item i {
+    color: white;
+}
+
+.stats-item h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.stats-item p {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+
+/* ===========================================================================================
+                                            Footer
+=========================================================================================== */
+
+#contact-us {
+    background-color: #262626;
+    height: 100%;
+}
+
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: white;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#contact-us h2 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.6;
+    text-align: center;
+}
+
+#contact-us h3 {
+    font-size: 33px;
+    color: rgb(247, 247, 247);
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+
+#contact-us p {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#send-btn a {
+    border-color: white;
+    background-color: #503392;
+    color: white;
+}
+
+#contact-us p2 {
+    font-size: 16px;
+    color: rgb(247, 247, 247);
+    line-height: 1.625;
+    text-align: left;
+}
+
+#contact-us>p3 {
+    font-size: 33px;
+    color: rgb(247, 247, 247);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#contact-us i {
+    color: white;
+}
+
+#footer-bottom {
+    background-color: #1f1f1f;
+    padding: 30px 0;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 22px;
+    padding: 3px 15px;
+    border-radius: 1;
+}
+
+.btn-green {
+    color: green;
+    border-color: Green;
+}
+
+#footer-copyrights p {
+    color: white;
+    margin: 0;
+}
+
+#footer-menu {
+    float: right;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu i {
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#right-contact-us p {
+    font-size: 18px;
+    padding: 0%;
+    text-align: left;
+}
+
+#right-contact-us span {
+    font-size: 33px;
+    color: white;
+}
+
+.flex-div {
+    padding-top: 50px;
+}
+
+#wrapper {
+    position: relative;
+    height: 100vh;
+}
+
+#slider-area {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#slider-area .owl-item div {}
